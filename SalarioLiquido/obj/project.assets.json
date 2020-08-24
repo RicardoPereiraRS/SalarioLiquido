@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
+      "projectUniqueName": "D:\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
       "projectName": "SalarioLiquido",
-      "projectPath": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
+      "projectPath": "D:\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
       "packagesPath": "C:\\Users\\jose__000\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\obj\\",
+      "outputPath": "D:\\SalarioLiquido\\SalarioLiquido\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

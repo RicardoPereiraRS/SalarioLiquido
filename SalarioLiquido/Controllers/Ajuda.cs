@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace SalarioLiquido.Controllers
 {
-	[Route("[controller]")]
+    [Route("[controller]")]
 	[ApiController]
 	public class Ajuda : ControllerBase	
 	{
