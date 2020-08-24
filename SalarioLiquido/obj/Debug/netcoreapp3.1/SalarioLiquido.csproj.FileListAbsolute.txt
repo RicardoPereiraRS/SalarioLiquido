@@ -1,0 +1,40 @@
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.exe
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.deps.json
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.runtimeconfig.json
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.runtimeconfig.dev.json
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.dll
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.pdb
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.csprojAssemblyReference.cache
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.AssemblyInfoInputs.cache
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.AssemblyInfo.cs
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.csproj.CoreCompileInputs.cache
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.RazorTargetAssemblyInfo.cache
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\staticwebassets\SalarioLiquido.StaticWebAssets.Manifest.cache
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\staticwebassets\SalarioLiquido.StaticWebAssets.xml
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.dll
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.pdb
+C:\Users\joserr\Documents\Visual Studio 2019\Projetos\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.genruntimeconfig.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.exe
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.deps.json
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.runtimeconfig.json
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.runtimeconfig.dev.json
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.dll
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\bin\Debug\netcoreapp3.1\SalarioLiquido.pdb
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.csprojAssemblyReference.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.AssemblyInfoInputs.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.AssemblyInfo.cs
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.csproj.CoreCompileInputs.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.MvcApplicationPartsAssemblyInfo.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.RazorTargetAssemblyInfo.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\staticwebassets\SalarioLiquido.StaticWebAssets.Manifest.cache
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\staticwebassets\SalarioLiquido.StaticWebAssets.xml
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.dll
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.pdb
+D:\Documentos\Desenvolvimento\C#\Bem\SalarioLiquido\SalarioLiquido\obj\Debug\netcoreapp3.1\SalarioLiquido.genruntimeconfig.cache
