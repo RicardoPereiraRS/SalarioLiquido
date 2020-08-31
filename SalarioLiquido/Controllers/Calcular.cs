@@ -20,9 +20,9 @@ namespace SalarioLiquido.Controllers
         public JsonResult Get(decimal salarioBruto, decimal outrosDescontos, int dependentes)
         {
 
-            decimal descInss = calculo.CalculaInss(salarioBruto);
+            decimal descInss = calculo.CalcularInss(salarioBruto);
 
-            decimal descIrrf = calculo.CalculaIrrf(salarioBruto - descInss, dependentes);
+            decimal descIrrf = calculo.CalcularIrrf(salarioBruto - descInss, dependentes);
 
             decimal totalDescontos = descInss + descIrrf + outrosDescontos;
 

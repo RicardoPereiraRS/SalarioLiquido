@@ -2,19 +2,11 @@
 {
     public interface ICalculoSalario
     {
-        decimal CalculaInss(decimal salario);
+        decimal CalcularInss(decimal salario);
 
-        decimal CalculaIrrf(decimal rendimentos, int dependentes);
+        decimal CalcularIrrf(decimal rendimentos, int dependentes);
 
-        decimal CalculaInssFaixa1(decimal salarioBruto);
-
-        decimal CalculaInssFaixa2(decimal salarioBruto);
-
-        decimal CalculaInssFaixa3(decimal salarioBruto);
-
-        decimal CalculaInssFaixa4(decimal salarioBruto);
-
-        decimal CalculaInssFaixaMax();
+       
 
     }
 }

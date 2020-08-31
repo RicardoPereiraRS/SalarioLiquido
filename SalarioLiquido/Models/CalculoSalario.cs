@@ -1,4 +1,6 @@
-﻿namespace SalarioLiquido.Models
+﻿using Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments;
+
+namespace SalarioLiquido.Models
 {
     public class CalculoSalario : ICalculoSalario
     {
@@ -7,123 +9,58 @@
         //  https://www.todacarreira.com/calculo-salario-liquido/?value=&dependents=&otherdiscounts=#salary-simulator
 
 
-        public decimal CalculaInss(decimal salario)
+        public decimal CalcularInss(decimal salarioBruto)
         {
-            decimal descontoInss = 0;
 
-            if (salario <= 1045m)
+            InssBase[] inssFaixas = {new InssFaixa1(),new InssFaixa2(),
+                new InssFaixa3(), new InssFaixa4(),new InssFaixaMax()};
+
+            decimal[] faixasSalrio = { 1045.01m, 2089.61m, 3134.41m, 6101.07m };
+
+            int i;
+            for (i = 0; i < faixasSalrio.Length; i++)
             {
-                descontoInss = CalculaInssFaixa1(salario);
+                if (salarioBruto < faixasSalrio[i])
+                {
+                    break;
+                }
             }
 
-            else if (salario >= 1045.01m && salario <= 2089.60m)
-            {
-                descontoInss = CalculaInssFaixa2(salario);
-            }
-
-            else if (salario >= 2089.61m && salario <= 3134.40m)
-            {
-                descontoInss = CalculaInssFaixa3(salario);
-            }
-
-            else if (salario >= 3134.41m && salario <= 6101.06m)
-            {
-                descontoInss = CalculaInssFaixa4(salario);
-            }
-
-            else if (salario > 6101.06m)
-            {
-                descontoInss = CalculaInssFaixaMax();
-            }
-
-            return descontoInss;
+            return inssFaixas[i].CalcularInss(salarioBruto);
         }
 
-        public decimal CalculaIrrf(decimal rendimentos, int dependentes)
+        public decimal CalcularIrrf(decimal rendimentos, int dependentes)
         {
             // desconta o valor dos dependentes ao rendimento
             rendimentos = rendimentos - (dependentes * 189.59m);
 
-            if (rendimentos <= 1903.98m)
-            {
-                return 0;
-            }
+            decimal[] faixasSalario = { 1093.99m, 2826.66m, 3751.06m, 4664.69m };
 
-            decimal indice = 0;
-            decimal deducao = 0;
+            decimal[] parcelasDedutiveis = { 0, 142.8m, 354.8m, 636.13m, 869.36m };
 
-            if (rendimentos >= 1903.99m && rendimentos <= 2826.65m)
-            {
-                indice = 0.075m;
-                deducao = 142.8m;
-            }
+            decimal[] aliquotas = { 0, 0.075m, 0.15m, 0.225m, 0.275m };
 
-            else if (rendimentos >= 2826.66m && rendimentos <= 3751.05m)
-            {
-                indice = 0.15m;
-                deducao = 354.8m;
-            }
+            int i;
 
-            else if (rendimentos >= 3751.06m && rendimentos <= 4664.68m)
+            for (i = 0; i < faixasSalario.Length; i++)
             {
-                indice = 0.225m;
-                deducao = 636.13m;
-            }
-
-            else if (rendimentos > 4664.68m)
-            {
-                indice = 0.275m;
-                deducao = 869.36m;
+                if (rendimentos < faixasSalario[i])
+                {
+                    break;
+                }
             }
 
             // calcula e desconta a dedução conforme a faixa de rendimento.
+            decimal valorIrrf = (aliquotas[i] * rendimentos) - parcelasDedutiveis[i];
 
-            decimal valorIrrf = (indice * rendimentos) - deducao;
 
-            // não pode ter valor de desconto irrf menor que zero.
+            // desconto irrf não pode ser menor que zero
             if (valorIrrf < 0)
             {
                 valorIrrf = 0;
             }
 
             return valorIrrf;
-        }
-
-       public decimal CalculaInssFaixa1(decimal salarioBruto)
-        {
-            return salarioBruto * 0.075m;
-        }
-
-        public decimal CalculaInssFaixa2(decimal salarioBruto)
-        {
-            decimal desconto = 1045m * 0.075m +
-                (salarioBruto - 1045m) * 0.09m;
-
-            return desconto;
-        }
-
-        public decimal CalculaInssFaixa3(decimal salarioBruto)
-        {
-            decimal desconto = (1045m * 0.075m) +
-                (1044.6m * 0.09m) +
-                ((salarioBruto - 2089.6m) * 0.12m);
-
-            return desconto;
-        }
-
-        public decimal CalculaInssFaixa4(decimal salarioBruto)
-        {
-            decimal desconto = (1045m * 0.075m) +
-                (1044.6m * 0.09m) +
-                (1044.8m * 0.12m) +
-                ((salarioBruto - 3134.4m) * 0.14m);
-
-            return desconto;
-        }
-
-        public decimal CalculaInssFaixaMax()
-        {
-            return 713.1m;
         }
     }
 }
