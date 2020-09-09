@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h8u4fztFYd/ollYrQBUANOn78APf6C/4iVmqiuJGvxF+F0HMSCaabEp3wa3oJoQ/OFQbbXzpwUTCurdByAywfw==",
+  "dgSpecHash": "c4O2SHTFYgK1UFQxz1SOYZ0+NkI6ssbTNGm3fWzeYwYn61Ta6zO+VoDWZyxTsV4lLlF4xIA1NIKCWkoL17xODA==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jose__000\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\jose__000\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\tGit\\SalarioLiquido\\SalarioLiquido.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

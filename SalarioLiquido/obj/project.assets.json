@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\jose__000\\.nuget\\packages\\": {},
+    "C:\\Users\\joserr\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
+      "projectUniqueName": "C:\\tGit\\SalarioLiquido\\SalarioLiquido.csproj",
       "projectName": "SalarioLiquido",
-      "projectPath": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\SalarioLiquido.csproj",
-      "packagesPath": "C:\\Users\\jose__000\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Desenvolvimento\\C#\\Bem\\SalarioLiquido\\SalarioLiquido\\obj\\",
+      "projectPath": "C:\\tGit\\SalarioLiquido\\SalarioLiquido.csproj",
+      "packagesPath": "C:\\Users\\joserr\\.nuget\\packages\\",
+      "outputPath": "C:\\tGit\\SalarioLiquido\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jose__000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joserr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,16 +57,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -75,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.4.20258.7\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
