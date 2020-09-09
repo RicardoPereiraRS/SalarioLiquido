@@ -8,6 +8,6 @@ namespace SalarioLiquido.Models
     abstract public class InssBase
     {
         abstract public decimal CalcularInss(decimal salarioBruto);
-        // 
+        // //
     }
 }
